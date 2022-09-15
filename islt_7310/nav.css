@@ -26,3 +26,16 @@ a:hover, a:active, a:visited {
     color: #42855B;
     text-decoration: underline;
 }
+
+ul li ul.dropdown {
+    display: none;
+    position: absolute;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
