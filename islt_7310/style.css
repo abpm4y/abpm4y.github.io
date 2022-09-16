@@ -1,3 +1,18 @@
 h1 {
     color: #333300;
 }
+
+p {
+    display: block;
+    border: none;
+    margin: auto;
+}
+
+p:first-of-type::first-letter {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p:not(:first-of-type) {
+    text-indent: 2%;
+}
