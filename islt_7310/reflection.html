@@ -4,43 +4,69 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="nav.css" />
-        <title>Philosophy</title>
+        <title>PHILOSOPHY</title>
     </head>
     <body>
-        <header>
-            <h1>Philosophy</h1>
-        </header>
-        <nav>
+        <nav class="nav2">
             <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="#">EXPERIENCE</a>
-                    <ul class="dropdown">
+                <li class="navleft"><a href="about.html">ABOUT</a></li>
+                <li class="navleft"><a href="project.html">EXPERIENCE</a>
+                    <!--<ul class="dropdown">
                         <li><a href="#"></a>LINK 1</li>
                         <li><a href="#"></a>LINK 2</li>
                         <li><a href="#"></a>LINK 3</li>
-                    </ul>
+                    </ul>-->
                 </li>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="reflection.html">PHILOSOPHY</a></li>
-                <li><a href="#contact.html">CONTACT</a></li>
-        </ul>
+                <li class="navmid"><a href="index.html">HOME</a></li>
+                <li class="navright"><a href="reflection.html">PHILOSOPHY</a></li>
+                <li class="navright"><a href="#contact.html">CONTACT</a></li>
+            </ul>
         </nav>
+        <div id="nav2mobile" class="nav2mobileclass">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="nav2content">
+                <li class="navleft"><a href="about.html">ABOUT</a></li>
+                <li class="navleft"><a href="project.html">EXPERIENCE</a>
+                    <!--<ul class="dropdown">
+                        <li><a href="#"></a>LINK 1</li>
+                        <li><a href="#"></a>LINK 2</li>
+                        <li><a href="#"></a>LINK 3</li>
+                    </ul>-->
+                </li>
+                <li class="navmid"><a href="index.html">HOME</a></li>
+                <li class="navright"><a href="reflection.html">PHILOSOPHY</a></li>
+                <li class="navright"><a href="#contact.html">CONTACT</a></li>
+            </ul>
+            <span style="font-size:18px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        </div>
+        <header>
+            <h1>Philosophy</h1>
+        </header>
         <main><br>
-            <p>As far as my career aspirations are concerned, it's due to self-inflicted roadblocks along with uncontrollable life factors that I believe I took a late start. Nevertheless, it has been only in these recent months that I decided to change.</p>
-            <br><p>That is correct: I now know what I want to be when I grow up.</p>
-            <br><p>When I was younger, my lack of direction was clear as day. It's not as though these were fleeting aspirations, however, as I genuinely put as much effort as my little 10-year-old self could into these dreams. It was the classic story of not enough fingers and too many pies -- actor, author, model, singer, astronaut, magician, you name it. I wrote angsty poems, sang my heart out in talent competitions, deeply examined every episode of "Breaking the Magician's Code: Magic's Biggest Secrets Finally Revealed", and (my magnum opus) starred in a Build-A-Bear commercial -- no joke!</p>
-            <br><p>Then I grew up a little, and it all stopped.</p>
-            <br><p>It's funny. In my first coding class, I started fairly optimistic. Although I didn't have any prior experience, I told myself there was no way coding was as bad as they said. Wrong. I ended the class with a C and immediately decided I would never touch Python so long as I lived. Ideally, I would never code at all. Gone was this cautious, but newfound dream. Perhaps I'd delve into cybersecurity, network technology, or even digital media design. Information technology is a vast subject, and even though my initial dreams were shot down immediately, I'd end up finding something else to fill that empty spot, even if it wasn't as enjoyable.</p>
-            <br><p>But it's during recent times that I've spent working on my coding skills that I've rediscovered my sense of delight. I've started from the very beginning once more, relearning dictionaries and lists and variables and all of the other basics, only this time, I am doing it because I choose to. No longer a chore, my dreaded future has become tentatively positive. My future, not my academic future, but my life that I have decided coding belongs in. Perhaps a career in software development, maybe game or web application design, is something I'll enjoy. A happy middle between something for me, and something for my future.</p>
-            <br><p>I am aware I don't have much compared to others. No relevant background, no internships, nor any personal projects quite yet. My prospects aren't great, but my determination cannot be stopped. I haven't had an appetite for something like this in a long time, so I cannot let this opportunity pass. I know it's hard and will likely take a while before I succeed, but it's not like that's something new.</p>
-            <br><p>Coding is most definitely as bad as they say. But it's a challenge that I am excited to take on.</p>
+            <p class="p5">As far as my career aspirations are concerned, it's due to self-inflicted roadblocks along with uncontrollable life factors that I believe I took a late start. Nevertheless, it has been only in these recent months that I decided to change.</p>
+            <br><p class="p6">That is correct:<br><br>I now know what I want to be when I grow up.</p>
+            <br><p class="p7">When I was younger, my lack of direction was clear as day. It's not as though these were fleeting aspirations, however, as I genuinely put as much effort as my little 10-year-old self could into these dreams. It was the classic story of not enough fingers and too many pies -- actor, author, model, singer, astronaut, magician, you name it. I wrote angsty poems, sang my heart out in talent competitions, deeply examined every episode of "Breaking the Magician's Code: Magic's Biggest Secrets Finally Revealed", and (my magnum opus) starred in a Build-A-Bear commercial -- no joke!</p>
+            <br><p class="p8">Then I grew up a little, and it all stopped.</p>
+            <br><p class="p8">It's funny. In my first coding class, I started fairly optimistic. Although I didn't have any prior experience, I told myself there was no way coding was as bad as they said. Wrong. I ended the class with a C and immediately decided I would never touch Python so long as I lived. Ideally, I would never code at all. Gone was this cautious, but newfound dream. Perhaps I'd delve into cybersecurity, network technology, or even digital media design. Information technology is a vast subject, and even though my initial dreams were shot down immediately, I'd end up finding something else to fill that empty spot, even if it wasn't as enjoyable.
+            <br><br>But it's during recent times that I've spent working on my coding skills that I've rediscovered my sense of delight. I've started from the very beginning once more, relearning dictionaries and lists and variables and all of the other basics, only this time, I am doing it because I choose to. No longer a chore, my dreaded future has become tentatively positive. My future, not my academic future, but my life that I have decided coding belongs in. Perhaps a career in software development, maybe game or web application design, is something I'll enjoy. A happy middle between something for me, and something for my future.
+            <br><br>I am aware I don't have much compared to others. No relevant background, no internships, nor any personal projects quite yet. My prospects aren't great, but my determination cannot be stopped. I haven't had an appetite for something like this in a long time, so I cannot let this opportunity pass. I know it's hard and will likely take a while before I succeed, but it's not like that's something new.</p>
+            <br><p class="p9">Coding is most definitely as bad as they say. But it's a challenge that I am excited to take on.</p>
+        
+            <script class="nav2script">
+                function openNav() {
+                    document.getElementById("nav2mobile").style.width = "100%";
+                }
+                
+                function closeNav() {
+                    document.getElementById("nav2mobile").style.width = "0%";
+                }
+            </script>
         </main>
         <footer>
-            <p><br>© 2022 Alivia Pham
-            <br>abpm4y@umsystem.edu
-            <br>All rights reserved.</p>
+            <p class="pfoot"><br>© 2022 Alivia Pham</p>
         </footer>
     </body>
 </html>

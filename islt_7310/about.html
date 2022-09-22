@@ -8,28 +8,46 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="nav.css" />
         <title>ABOUT</title>
     </head>
     <body>
-        <nav class="fixed-nav-bar">
+        <nav class="nav2">
             <ul>
                 <li class="navleft"><a href="about.html">ABOUT</a></li>
-                <li class="navleft"><a href="#">EXPERIENCE</a>
-                    <ul class="dropdown">
+                <li class="navleft"><a href="project.html">EXPERIENCE</a>
+                    <!--<ul class="dropdown">
                         <li><a href="#"></a>LINK 1</li>
                         <li><a href="#"></a>LINK 2</li>
                         <li><a href="#"></a>LINK 3</li>
-                    </ul>
+                    </ul>-->
                 </li>
                 <li class="navmid"><a href="index.html">HOME</a></li>
                 <li class="navright"><a href="reflection.html">PHILOSOPHY</a></li>
                 <li class="navright"><a href="#contact.html">CONTACT</a></li>
             </ul>
         </nav>
+        <div id="nav2mobile" class="nav2mobileclass">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="nav2content">
+                <li class="navleft"><a href="about.html">ABOUT</a></li>
+                <li class="navleft"><a href="project.html">EXPERIENCE</a>
+                    <!--<ul class="dropdown">
+                        <li><a href="#"></a>LINK 1</li>
+                        <li><a href="#"></a>LINK 2</li>
+                        <li><a href="#"></a>LINK 3</li>
+                    </ul>-->
+                </li>
+                <li class="navmid"><a href="index.html">HOME</a></li>
+                <li class="navright"><a href="reflection.html">PHILOSOPHY</a></li>
+                <li class="navright"><a href="#contact.html">CONTACT</a></li>
+            </ul>
+            <span style="font-size:18px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        </div>
         <header>
-            <h1>Let me introduce myself.</h1>
+            <h1>More about me?</h1>
         </header>
         <main>
         <br>
@@ -38,11 +56,19 @@
             <br><p class="p3">Hello there. I'm Alivia Pham. With a BS in Information Technology in one hand and a minor in Film Studies in the other, it's now my  turn to enter the workforce. When I was younger, I loved to exert creativity in every aspect of my life. Upon entering university, I decided to lean into the technicalities instead. Turns out, you can combine them both. After dabbling in a variety of aspects of IT (digital media design, coding, cyber security, etc), I'd love to pursue a career that allows me to use these freshly minted skills and put that creativity and technicality together.
             <br><br>As past-Alivia's idol used to say (Hannah Montana)... you get the best of both worlds!</p>
             <br><a href="resume.pdf">Resume</a>
+        
+            <script class="nav2script">
+                function openNav() {
+                    document.getElementById("nav2mobile").style.width = "100%";
+                }
+                
+                function closeNav() {
+                    document.getElementById("nav2mobile").style.width = "0%";
+                }
+            </script>
         </main>
         <footer>
-            <p><br>© 2022 Alivia Pham
-            <br>abpm4y@umsystem.edu
-            <br>All rights reserved.</p>
+            <p class="pfoot"><br>© 2022 Alivia Pham</p>
         </footer>
     </body>
 </html>

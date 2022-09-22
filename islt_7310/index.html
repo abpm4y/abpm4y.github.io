@@ -4,40 +4,63 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="nav.css" />
-        <title>Home Page</title>
+        <title>HOME</title>
     </head>
     <body>
-        <header>
-            <h1>Home Page</h1>
-        </header>
-        <nav>
+        <nav class="nav2">
             <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="#">EXPERIENCE</a>
-                    <ul class="dropdown">
+                <li class="navleft"><a href="about.html">ABOUT</a></li>
+                <li class="navleft"><a href="project.html">EXPERIENCE</a>
+                    <!--<ul class="dropdown">
                         <li><a href="#"></a>LINK 1</li>
                         <li><a href="#"></a>LINK 2</li>
                         <li><a href="#"></a>LINK 3</li>
-                    </ul>
+                    </ul>-->
                 </li>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="reflection.html">PHILOSOPHY</a></li>
-                <li><a href="#contact.html">CONTACT</a></li>
+                <li class="navmid"><a href="index.html">HOME</a></li>
+                <li class="navright"><a href="reflection.html">PHILOSOPHY</a></li>
+                <li class="navright"><a href="#contact.html">CONTACT</a></li>
             </ul>
         </nav>
+        <div id="nav2mobile" class="nav2mobileclass">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="nav2content">
+                <li class="navleft"><a href="about.html">ABOUT</a></li>
+                <li class="navleft"><a href="project.html">EXPERIENCE</a>
+                    <!--<ul class="dropdown">
+                        <li><a href="#"></a>LINK 1</li>
+                        <li><a href="#"></a>LINK 2</li>
+                        <li><a href="#"></a>LINK 3</li>
+                    </ul>-->
+                </li>
+                <li class="navmid"><a href="index.html">HOME</a></li>
+                <li class="navright"><a href="reflection.html">PHILOSOPHY</a></li>
+                <li class="navright"><a href="#contact.html">CONTACT</a></li>
+            </ul>
+            <span style="font-size:18px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        </div>
         <main>
-            <h4><br>Hello. I'm Alivia. Let me introduce myself.</h4><br>
+            <br><h1 class="h1v2">Hello. I'm Alivia.<br>Let me introduce myself.</h1><br>
 
-            <p>This website is the greatest opportunity I have to introduce myself to the world. As a new graduate, it's not like I've had much exposure to the industry, nor has the industry had exposure to me. I'm a fresh face, new meat, etc... A portfolio such as this is the perfect chance for me to change that, to say hello, see what there is to offer (both from myself and others), and find my niche in the industry. 
-            To be honest, I am not exactly sure what that niche is myself. But by all means, if you have something in mind, please let me know. My contact information is available here, along with all of my previous work and project experience.
-            I hope to inspire you, just as much as I hope to be inspired by you. If this portfolio is one step closer to that, then here I am.</p>
+            <p class="p4">This website is the greatest opportunity I have to introduce myself to the world. As a new graduate, it's not like I've had much exposure to the industry, nor has the industry had exposure to me. I'm a fresh face, new meat, etc... A portfolio such as this is the perfect chance for me to change that, to say hello, see what there is to offer (both from myself and others), and find my niche in the industry. 
+            <br><br>To be honest, I am not exactly sure what that niche is myself. But by all means, if you have something in mind, please let me know. My contact information is available here, along with all of my previous work and project experience.
+            <br><br>I hope to inspire you, just as much as I hope to be inspired by you. If this portfolio is one step closer to that, then here I am.</p>
+        
+            <script class="nav2script">
+                function openNav() {
+                    document.getElementById("nav2mobile").style.width = "100%";
+                }
+                
+                function closeNav() {
+                    document.getElementById("nav2mobile").style.width = "0%";
+                }
+            </script>
         </main>
         <footer>
-            <p><br>© 2022 Alivia Pham
-            <br>abpm4y@umsystem.edu
-            <br>All rights reserved.</p>
+            <p class="pfoot"><br>© 2022 Alivia Pham</p>
         </footer>
     </body>
 </html>
