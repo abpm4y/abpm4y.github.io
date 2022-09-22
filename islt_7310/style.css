@@ -1,18 +1,31 @@
 h1 {
-    color: #333300;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 3%;
+    color: black;
 }
 
 p {
-    display: block;
+    display: flex;
     border: none;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p:first-of-type::first-letter {
-    font-weight: bold;
-    font-size: 18px;
+.p1 {
+    width: 60%;
+    margin-top: 10%;
+    font-size: 22px;
 }
 
-p:not(:first-of-type) {
-    text-indent: 2%;
+.p2 {
+    margin-top: 10%;
+    margin-left: 60%;
+    font-size: 30px;
+}
+
+.p3 {
+    margin: 10% auto;
+    width: 75%;
+    font-size: 20px;
 }
