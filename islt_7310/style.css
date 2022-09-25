@@ -22,7 +22,7 @@
 .pfoot3 {
     display: flex;
     margin-top: 4px;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     margin-left: 90%;
     font-size: 12px;
 }
@@ -141,8 +141,11 @@ p {
 }
 
 footer {
-    background: url("footerimg.png");
+    background: url("emoticon2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
 }
 
 
