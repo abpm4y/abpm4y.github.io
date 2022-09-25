@@ -5,9 +5,23 @@
 
 @media screen and (min-width: 700px) {
 
-.pfoot {
+.pfoot1 {
     display: flex;
     margin-top: 5%;
+    margin-left: 90%;
+    font-size: 12px;
+}
+
+.pfoot2 {
+    display: flex;
+    margin-top: 4px;
+    margin-left: 90%;
+    font-size: 12px;
+}
+
+.pfoot3 {
+    display: flex;
+    margin-top: 4px;
     margin-bottom: 1%;
     margin-left: 90%;
     font-size: 12px;
@@ -112,7 +126,24 @@ p {
 
 .p10 {
     margin-top: 5%;
-}}
+}
+
+.imgfooter {
+    display: flex;
+    margin-right: 4px;
+    width: 10%;
+    height: 10%;
+}
+
+.imgfooter:hover {
+    width: 11%;
+    height: 11%;
+}
+
+footer {
+    background: url("footerimg.png");
+}
+}
 
 
 
@@ -120,14 +151,29 @@ p {
 
 @media screen and (max-width: 699px) {
 
-    .pfoot {
+    .pfoot1 {
         display: flex;
         margin-top: 5%;
-        margin-bottom: 1%;
         margin-left: 90%;
         font-size: 10px;
     }
     
+    .pfoot2 {
+        display: flex;
+        margin-top: 1%;
+        margin-left: 90%;
+        font-size: 12px;
+    }
+    
+    .pfoot3 {
+        display: flex;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 90%;
+        font-size: 12px;
+    }
+
+
     h1 {
         display: flex;
         margin-top: 15%;
@@ -225,7 +271,31 @@ p {
     
     .p10 {
         margin-top: 5%;
-    }}
+    }
+
+    .imgfooter {
+        display: flex;
+        margin-right: 4px;
+        width: 15%;
+        height: 15%;
+    }
+    
+    .imgfooter:hover {
+        width: 18%;
+        height: 18%;
+    }
+    
+    footer {
+        background: url("footerimg.png");
+    }
+    }
+
+
+
+
+
+
+/*PRINTING PRINTING PRINTING*/
 
 @media print {
 
