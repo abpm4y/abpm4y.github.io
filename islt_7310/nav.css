@@ -62,9 +62,10 @@ ul li ul.dropdown li {
     display: block;
 }
 
+/*
 .nav2mobile, .nav2script {
     display: none;
-}
+}*/
 }
 
 
@@ -74,7 +75,7 @@ ul li ul.dropdown li {
 
 
 /*SMALLER SMALLER SMALLER SMALLER SMALLER SMALLER SMALLER SMALLER SMALLER SMALLER SMALLER */
-
+/*
 @media screen and (max-width: 699px) {
     
 .nav2mobileclass {
@@ -122,3 +123,4 @@ ul li ul.dropdown li {
     display: none;
 }
 }
+*/
