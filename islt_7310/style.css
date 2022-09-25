@@ -146,6 +146,11 @@ footer {
     background-size: contain;
 }
 
+.embedvideo {
+    margin-left: 50%;
+    margin-bottom: 5%;
+}
+
 }
 
 
@@ -289,8 +294,15 @@ footer {
     }
     
     footer {
-        background: url("footerimg.png");
+        background: url("emoticon2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
     }
+    
+    .embedvideo {
+        margin-left: 50%;
+        margin-bottom: 5%;
+    } 
     }
 
 
