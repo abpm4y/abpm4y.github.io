@@ -169,6 +169,40 @@ p {
     margin-left: 25%;
     margin-bottom: 5%;
 }
+
+table {
+    margin-left: 30%;
+    font-family: InterRight;
+    border-collapse: collapse;
+    margin-top: 8%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 4px 12px;
+}
+
+td {
+    font-size: 14px;
+}
+
+tr:nth-child(1) {
+    background-color: #C1D5A4;
+}
+
+tr:nth-child(even) {
+    background-color: #F0F2B6;
+}
+
+tr:nth-child(3) {
+    background-color: #fbfce2;
+}
+
+form {
+    margin-top: 8%;
+    margin-left: 30%;
+    font-family: InterRight;
+}
 }
 
 
@@ -347,6 +381,41 @@ p {
     html {
         background-size: cover;
     }
+
+    table {
+        margin-left: 30%;
+        font-family: InterRight;
+        border-collapse: collapse;
+        margin-top: 8%;
+    }
+    
+    th, td {
+        border: 1px solid black;
+        padding: 4px 12px;
+    }
+    
+    td {
+        font-size: 14px;
+    }
+    
+    tr:nth-child(1) {
+        background-color: #C1D5A4;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #F0F2B6;
+    }
+    
+    tr:nth-child(3) {
+        background-color: #fbfce2;
+    }
+    
+    form {
+        margin-top: 8%;
+        margin-left: 30%;
+        font-family: InterRight;
+    }
+
     }
 
 

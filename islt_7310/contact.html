@@ -1,4 +1,4 @@
-<!-- project page -->
+<!-- contact page -->
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -7,11 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="nav.css" />
-        <title>EXPERIENCE</title>
+        <title>CONTACT</title>
         <link rel="shortcut icon" href="favicon.ico">
         <style>
             html { 
                 display: flex;
+                background-image: url(contact.png);
+                background-repeat: no-repeat;
+                background-size: contain;
                 background-color: #EEF2E6;
             }
         </style>
@@ -51,13 +54,44 @@
             <span style="font-size:18px;cursor:pointer" onclick="openNav()">&#9776; open</span>
         </div>-->
         <header>
-            <h1>Experience</h1>
+            <h1 style="margin-top:15%;margin-left:6%;">Contact</h1>
         </header>
-        <main style="margin-bottom:10%;">
-            <img src="mizzou.png" style="display:flex;width:20%;float:right;margin-right:11%;margin-top:6%;"><br><p class="p11">Clerical Student Assistant & Peer Learning Assistant - University of Missouri - 2019-2022
-                <br><br>- The University of Missouri-Columbia, founded in 1839, is Missouri's largest university and the flagship of the four-campus University of Missouri System. It's a public land- grant research university in Columbia, Missouri, Mizzou is home to over 30,000 students. As one of them, I of course ended up working on-campus for most of my time there. My position was held in two main locations, Ellis Library and various residential halls, and my time was spent mainly working to allocate merchandise for the appropriate clientele, utilize administrative databases to manage data for students and buildings, greet guests, and direct inquiries to designated departments. As a Peer Learning Assistant (PLA), I worked remotely to facilitate a university's IT course, "Game Theory and Design", as an undergraduate teacher's assistant. In doing so, I graded assignments, answered emails, held office hours for 80+ students, and troubleshooted students' issues with in-class software: Epic Games Unreal Engine.
-                <br>- Both of these positions were a means to an end. I applied to Ellis Library and Residential life to ensure I had work during my semesters at school, but I don't think very much of my time in these roles. Were they fun, yes, but ultimately I believe I have moved on.</p>
-
+        <main style="display:flex;margin-bottom:16.5%;">
+            <table>
+                <caption>Contact Information</caption>
+                <tr>
+                <th>Method</th>
+                <th>Contact</th>
+                <th>Purpose</th>
+                </tr>
+                <tr>
+                <td>Email</td>
+                <td>fame@gmail.com</td>
+                <td>Business inquiries only</td>
+                </tr>
+                <tr>
+                <td>Phone</td>
+                <td>123-456-7890</td>
+                <td>Business inquiries only</td>
+                </tr>
+                <tr>
+                <td>In-Person</td>
+                <td>No address</td>
+                <td>Please don't visit my home</td>
+                </tr>
+            </table>
+            <form action="mailto:fake@gmail.com?Subject=Portfolio%20Contact" method="post" enctype="text/plain">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="First" autofocus><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Last"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="example@example.com"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="text" name="message" rows="4" cols="50" placeholder="Body"></textarea><br><br>
+                <input type="submit" value="Submit">
+              </form> 
+        
             <!--<script class="nav2script">
                 function openNav() {
                     document.getElementById("nav2mobile").style.width = "100%";
@@ -68,7 +102,7 @@
                 }
             </script>-->
         </main>
-        <footer style="background-color: #42855B;color:white;">
+        <footer style="background-color:white;width:185%;">
             <br><p class="pfoot1">© 2022 Alivia Pham</p>
             <p class="pfoot2"><img src="emailicon.ico" class="imgfooter">fake@gmail.com</p>
             <p class="pfoot3"><img src="phoneicon.png" class="imgfooter">(123)456-7890</p>
